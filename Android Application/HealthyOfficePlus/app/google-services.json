@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "262519511652",
+    "firebase_url": "https://healthyofficeplus.firebaseio.com",
+    "project_id": "healthyofficeplus",
+    "storage_bucket": "healthyofficeplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262519511652:android:3c07e440234195dd",
+        "android_client_info": {
+          "package_name": "com.healthyofficeplus.healthyoffice.healthyofficeplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262519511652-mi7epit9vunmo6qoaunpi1mgshmmbc6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.healthyofficeplus.healthyoffice.healthyofficeplus",
+            "certificate_hash": "af50530a137ec92673fadabdc67eda329c802ddf"
+          }
+        },
+        {
+          "client_id": "262519511652-knb59afv6rg8j3bg4ei8rr4rhc0r66q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Qi-AO5qX6FwKfx5c3JhB83qMKIIOUuw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262519511652-knb59afv6rg8j3bg4ei8rr4rhc0r66q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262519511652:android:2842dfdf38e4e3d9",
+        "android_client_info": {
+          "package_name": "com.example.neway.fireretrieval"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262519511652-0ogovvsgisen53mcp8kqs9v6hdeds6nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.neway.fireretrieval",
+            "certificate_hash": "87ff0a5c07a992f3903fcd7f38522b6c3f184d33"
+          }
+        },
+        {
+          "client_id": "262519511652-knb59afv6rg8j3bg4ei8rr4rhc0r66q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Qi-AO5qX6FwKfx5c3JhB83qMKIIOUuw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262519511652-knb59afv6rg8j3bg4ei8rr4rhc0r66q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
