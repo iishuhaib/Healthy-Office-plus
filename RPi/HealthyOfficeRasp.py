@@ -4,10 +4,12 @@ import imp
 import json
 import paho.mqtt.client as paho
 
+#if the RPi is false give alternative values to test
 try:
     imp.find_module('RPi')
     import RPi.GPIO as GPIO
     RPi = True
+#Giving alternative values
 except ImportError:
     RPi = False
     DEBUG_PULSE_START = 0
@@ -25,6 +27,7 @@ client.connect("iot.eclipse.org", 1883, 60)
 
 # Object declaration for getting current date and time
 current = datetime.datetime.now()
+timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
 
 # Alert
 Rasptrigger = 21
@@ -57,9 +60,9 @@ else:
 pulse_start = 0
 pulse_end = 0
 
-
 # Function to fetch precise distance of obstacle
 def sonar(trigger, echo):
+    print "Entered Sonar Function"
     global pulse_start, pulse_end
 
     if RPi:
@@ -82,20 +85,28 @@ def sonar(trigger, echo):
     # Difference between transmission and reception of pulse
     pulse_duration = pulse_end - pulse_start
     # Formulate time into distance
-    distance = pulse_duration * 171500
+    distance = pulse_duration * 1715
     # Round the distance into readable format in cm
     distance = round(distance, 2)
 
+    print "Distance: ", distance
     return distance
 
-
 try:
+    print "Entering Try Block"
     while True:
         distance1 = sonar(TRIG1, ECHO1)
         distance2 = sonar(TRIG2, ECHO2)
-        data = {"distance1": distance1, "distance2": distance2}
+        data = {"distances": {
+            "distance1": distance1,
+            "distance2": distance2},
+            "timestamp": timestamp
+        }
+        #passing json values to a variable
         payload = json.dumps(data)
+        #console log
         print payload
+        #Send data to MQTT
         client.publish(MQTT_CHANNEL, payload)
         time.sleep(1)
 

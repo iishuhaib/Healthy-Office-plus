@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "healthyofficeplus",
+  "private_key_id": "c529ec25888b9c471e3925d63893b0e8b5781f2e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3ag9n9LMGXrcc\nx9yFsErL6JO5777UWsi1mp0e/VAzlPzzOj1WSQDWn7q4I1Tsyv96HLeloZSxlpul\nXAqrQydT4yjf+Q1oeQgogaqdzbel+2w5CS7ZCt+fGTSefZzVgI5V7hZUald4kDtR\nDSHh8Yh0O918NY3eHceLLttjqFuXSVfBo9vGy2YOAVduyfOm6QPPstX+KZQNSJsD\njbilBJ45a/CDID9llbttkNJcbaT2yfcZILVZgkfeGmqtJ5GuknOTxrj8doOBozP8\noBJv58ebX+4wSMB3P4QExRXuby70QJWLVuR/y818PkByTKEQuY+Xt4kNqtnCWi+Y\nzOweKzXJAgMBAAECggEAK2ths0fj26WvbpJHu6REyKnJ0vIU+Ft3eTpdaLkp89QY\n35GRdKw6lRRiFPZUQ+w4d5V1yjGKrFHNjeNQqUNv+3Vit0bTrEA+tKwhklLhX1s6\nPvRUEVB4KMdERCLTbl2NFH2U7q3wABwQ1rqnoz/VAEMtxxo8d/EPzHyuthRkflcY\nlKmuSXC1NSR3ugBK73E/mWX3jK5nKxOQXbdYaDT81SuvWrMWrv486Og+u3CcFigD\n3Os5rwTGV0KbE9pbtgdFvcjYpwjLTZGYA8o2fkMclY3kjfufkjnGmALE+WCUA8b3\nE0Vn/OI0IlZXe/BW68DehT+RTi3ssGKeRkdMeW6hKwKBgQD1y3NOEBQ2Y6K2N34Z\n6LooehxollEFc3L5DkgK8yOvfy7vvvnawKxHZe91mQ/nppuohUf/VxXOSiK2Cnke\n36yZ8sctM1PQu2YYUiQdk8yVsxqqjLvlwOgfNhQWgzbsa1RnMVssnE8Gma9bLTLr\ncJjc+0+D/ITm3hTp443m6fwsUwKBgQC/B5GeplJ8/5v9X3Vqts/8QDOdI8PNOKyy\nBFNY57jeQdc30psDgvJQ0rwbkNwzTAmb7PUCCmcKThRtgG1T0l8b+BAMOqLtiznG\nB36uw+f+7xXyWapZM2kxWGI5QnQ1bWyspNbG+UX+iokfj+8ZR6eLiyt+jrkUU0Hn\nTQ0kj0Hx8wKBgQCy9hgVHWXqF+9vpsXczXNFZ2tpxxBk3KM4rWpM9qzj6cFd8/nt\niV2mepS4VeKbstYhBDHguyJ4WcgeLU/057y/NmJJCdcb4mY6jQwYsPVDhe2DggaJ\nCUS4/OHxZkZGKvuASxJsT77GOn3P7//kJs5WD3Dc065cfhRSG0nFeFYQWwKBgApP\nTUOjtFX8sZ2GFl8xCJ6TlHWJpZqg0Wk2JI1qzCZqpUPlAOq6mXtVNEPEmK3ID8iz\njDGVACSlPCMAyGW6t9lZlPwj+gEZ/385jlO+TPoMS0HuJuxzgtzf6UUv2fe8NR5I\nMzM/5tArB+WFLiFOJbO5Shqld0WqjKcAGJJ9jNCTAoGAU/j086VY6xreVubMY0qa\ndZ0xGGFPIThamohedk4GtdzuDdVOu1hkbnoyCeKprk3uvKo3E2oGdE35DcUYxJPV\nGlrvJ9bGWDjt0/KwIVFGyhPO0QIysrpnKGPsVuUg0DJKjrtZh7OR0J40z+EXJamZ\nULS7D0nkGz5iMmH85IuasM0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-0z5iu@healthyofficeplus.iam.gserviceaccount.com",
+  "client_id": "110604208709360076911",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-0z5iu%40healthyofficeplus.iam.gserviceaccount.com"
+}
